@@ -13,7 +13,7 @@ def hex2dec(hex):
 
 
 class Bulb:
-    def __init__(self, ip, port, max_attempts=3, timeout=1):
+    def __init__(self, ip, port=5577, max_attempts=3, timeout=1):
         self.ip = ip
         self.port = port
         self.max_attempts = max_attempts
